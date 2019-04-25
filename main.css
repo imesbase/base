@@ -73,7 +73,8 @@ p {
 	font-size: 22px;
 	line-height: 1.7;
 	color: #666666;
-	font-weight: bold;
+	margin: 0px;
+  font-weight: bold;
   text-align: center;
   margin-top: 20px;
 }
@@ -232,8 +233,8 @@ iframe {
   height: 100%;
   top: 0;
   left: 0;
- /* background-color: rgba(54,84,99,0.7);*/
-}
+  /*background-color: rgba(54,84,99,0.7);
+}*/}
 
 
 /*==================================================================
@@ -266,7 +267,7 @@ iframe {
   font-size: 15px;
   color: #808080;
   line-height: 1.2;
-  text-align: right;
+  
 
   position: absolute;
   top: 14px;
@@ -286,6 +287,11 @@ iframe {
   width: 100%;
   background: transparent;
   padding: 0 5px;
+}
+
+
+
+
 }
 
 .focus-input100 {

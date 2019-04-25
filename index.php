@@ -11,27 +11,27 @@
 			switch ($user['profil']) {
 				case 'admin': 
 					$_SESSION['admin'] = $user;
-					header('Location:admin.php');
+					header('Location:kiaalap/index-1.php');
 					break;
 
 				case 'eleve': 
 					$_SESSION['eleve'] = $user;
-					header('Location:eleve.php');
+					header('Location:kiaalap/index-1.php');
 					break;
 
 				case 'prof': 
 					$_SESSION['prof'] = $user;
-					header('Location:prof.php');
+					header('Location:kiaalap/index-1.php');
 					break;
 
 				case 'surveillant': 
 					$_SESSION['surveillant'] = $user;
-					header('Location:surveillant.php');
+					header('Location:kiaalap/index-1.php');
 					break;
 
 				case 'directeur': 
 					$_SESSION['directeur'] = $user;
-					header('Location:directeur.php');
+					header('Location:kiaalap/index-1.php');
 					break;
 			}
 			
@@ -78,11 +78,16 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-form-title" style="background-image: url(images/logo09.jpg);">
-					<span class="login100-form-title-1">
+					<!-- <span class="login100-form-title-1">
 						Connectez-vous
-					</span>
+					</span>  -->
 				</div>
+				
+				<p > <!-- class="login100-form-title-1" -->
+						Connectez-vous
+					</p>
 
+				
 				<form class="login100-form validate-form" action="index.php" method="post">
 					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
 						<span class="label-input100">Utilisateur</span>
@@ -106,14 +111,14 @@
 
 						<div>
 							<a href="#" class="txt1">
-								Mot de passe oublié?
+							Mot de passe oublié?
 							</a>
 						</div>
 					</div>
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-							Login
+							Se connecter
 						</button>
 					</div>
 				</form>
